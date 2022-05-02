@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto:wght@300;400&display=swap");
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #d6e2f0;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 80vw;
+  padding-bottom: 20px;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 20px #88888896;
+          box-shadow: 0px 0px 20px #88888896;
+}
+
+body .container .qr-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 90%;
+}
+
+body .container .qr-box img {
+  max-width: 110%;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+body .container .qr-box h2 {
+  text-align: center;
+  font-size: 1.4em;
+  color: #1f3251;
+  font-weight: 700;
+}
+
+body .container .qr-box p {
+  text-align: center;
+  font-size: 1em;
+  color: #7b879d;
+  font-weight: 400;
+}
+
+@media (min-width: 1281px) {
+  body .container {
+    width: 20vw;
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+  body .container .qr-box {
+    width: 100vw;
+  }
+  body .container .qr-box img {
+    width: 100%;
+    margin-top: 10px;
+  }
+  body .container .qr-box h2 {
+    font-size: 1em;
+  }
+  body .container .qr-box p {
+    font-size: 0.8em;
+  }
+}
+/*# sourceMappingURL=style.css.map */
